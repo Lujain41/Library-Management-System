@@ -1,4 +1,4 @@
-# Assignment: Library Management System
+# Library Management System
 
 The goal of this assignment is to implement a basic Library Management System as a C# console application. This application will help you practice key principles in Object-Oriented Programming.
 
@@ -6,7 +6,7 @@ The goal of this assignment is to implement a basic Library Management System as
 
 A library system manages books and users, with functionalities such as adding a book, retrieving a book by ID, and more. Your job is to model this system using classes or interfaces as you see fit.
 
-## Level 1: Basic Library Setup
+## Basic Library Setup
 
 1. Create Basic Classes:
 
@@ -19,7 +19,7 @@ A library system manages books and users, with functionalities such as adding a 
 - Based on the common features between User and Book, create a base class for them to inherit from.
 - Id could be of type `Guid`, generated inside constructor. Date, if null, will be set to current date. Only title/name is required.
 
-## Level 2: Basic Library Features
+## Basic Library Features
 
 The Library has features:
 
@@ -29,7 +29,7 @@ The Library has features:
 - Add new book/user to the library
 - Delete book/user by id
 
-  **_Remember to add Handle Exception logic_**
+
 
 Use all the features above in `Program.cs`
 
@@ -68,7 +68,7 @@ var book19 = new Book("The Iliad");
 var book20 = new Book("Anna Karenina");
 ```
 
-## Level 3: Setup Notification Service
+## Setup Notification Service
 
 1. Create an `INotificationService` interface with a method `SendNotificationOnSuccess` and `SendNotificationOnFailure`.
 
@@ -100,4 +100,4 @@ var book20 = new Book("Anna Karenina");
    }
    ```
 
-**_DEADLINE: THURSDAY 12/09 5PM_**
+
